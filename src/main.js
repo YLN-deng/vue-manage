@@ -32,14 +32,28 @@ import {
     TableColumn,
     Breadcrumb,
     BreadcrumbItem,
-    Tag
+    Tag,
+    Form,
+    FormItem,
+    Input,
+    Select,
+    Option,
+    Switch,
+    DatePicker,
+    Dialog,
+    Pagination,
+    MessageBox,
+    Message
 } from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(Button).use(Radio).use(Container).use(Main).use(Header).use(Aside)
     .use(Menu).use(Submenu).use(MenuItem).use(MenuItemGroup).use(Dropdown)
     .use(DropdownMenu).use(DropdownItem).use(Row).use(Col).use(Card)
     .use(Table).use(TableColumn).use(Breadcrumb).use(BreadcrumbItem)
-    .use(Tag);
+    .use(Tag).use(Form).use(FormItem).use(Input).use(Select).use(Option)
+    .use(Switch).use(DatePicker).use(Dialog).use(Pagination);
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.prototype.$message = Message
 
 Vue.config.productionTip = false
 
