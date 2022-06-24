@@ -1,7 +1,6 @@
 # vue-manage
 
 ## 学习简单的vue后台管理开发
-```
 
 ## Project setup
 ```
