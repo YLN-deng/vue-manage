@@ -158,6 +158,10 @@ export default {
             type: 'line'
           })
         })
+		console.log(series);
+		console.log(KeyArray);
+		console.log(order);
+		console.log(xData);
         const option = {
           title: {
             text: '' //标题
